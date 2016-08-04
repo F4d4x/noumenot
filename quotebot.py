@@ -9,10 +9,10 @@ import tweepy
 import wikiquote
 
 ssl._create_default_https_context = ssl._create_unverified_context
-CONSUMER_KEY = '0N7AyEIBMBIugxeiHVoN1S72g'
-CONSUMER_SECRET = 'aWKvfwgNfeEcZVy6yCytgg4yaQuUhWLfmKq9jGZswEf1qvMoyd'
-ACCESS_KEY = '91107171-kJmIxQZeDagPDjRcEaE46ypJqVtHE6ErzV4kX4Smc'
-ACCESS_SECRET = 'Q0jh8PFhEaxNJlRUvAUHu9E8s3Z4pGnbbsfdVHZLeFBiP'
+CONSUMER_KEY = '12345...'
+CONSUMER_SECRET = '12345...'
+ACCESS_KEY = '12345...'
+ACCESS_SECRET = '12345...'
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
